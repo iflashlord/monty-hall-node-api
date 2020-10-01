@@ -1,0 +1,23 @@
+{
+    "name": "monty-hall-node-api",
+    "version": "1.0.0",
+    "description": "Monty Hall Simulator",
+    "main": "simulator-api.js",
+    "scripts": {
+        "start": "node simulator-api.js",
+        "test": ""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@gitlab.com/iflashlord/monty-hall-node-api.git"
+    },
+    "author": "Behrouz Pooladrag",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://gitlab.com/iflashlord/monty-hall-node-api/issues"
+    },
+    "homepage": "https://gitlab.com/iflashlord/monty-hall-node-api#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
