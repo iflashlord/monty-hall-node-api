@@ -12,6 +12,10 @@ app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+app.get('/', (req, res) => {
+    res.send("Welcome to Monty Hall Simulator!");
+});
+
 // define a route with method post to get data from front-end
 app.post('/simulate', (req, res) => {
     // get body of request
