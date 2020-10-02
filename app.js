@@ -99,7 +99,7 @@ function gateDiscloser(hasCar, selectedGate) {
  * generate a random number between min and max
  *
  * @param {int} min
- * @param int max
+ * @param {int} max
  * @returns int
  */
 function getRandomNumber(min, max) {
@@ -109,3 +109,11 @@ function getRandomNumber(min, max) {
 }
 
 app.listen(port, _ => console.log(`Monty Hall API App listening on port ${port}!`));
+
+// Export the app object
+exports._test = {
+    getRandomNumber,
+    gateDiscloser,
+    simulateRound,
+    simulationSystem,
+}

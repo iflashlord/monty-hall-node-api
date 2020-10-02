@@ -1,1 +1,1 @@
-web: node simulator-api.js
+web: node app.js

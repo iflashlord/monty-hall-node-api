@@ -2,10 +2,11 @@
     "name": "monty-hall-node-api",
     "version": "1.0.0",
     "description": "Monty Hall Simulator",
-    "main": "simulator-api.js",
+    "main": "app.js",
     "scripts": {
-        "start": "node simulator-api.js",
-        "test": ""
+        "start": "node app.js",
+        "test": "mocha",
+        "doc": "jsdoc app.js"
     },
     "repository": {
         "type": "git",
@@ -21,5 +22,9 @@
         "body-parser": "^1.19.0",
         "cors": "^2.8.5",
         "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "jsdoc": "^3.6.6",
+        "mocha": "^8.1.3"
     }
 }
