@@ -6,7 +6,8 @@
     "scripts": {
         "start": "node app.js",
         "test": "mocha",
-        "doc": "jsdoc app.js"
+        "doc": "jsdoc app.js",
+        "heroku-publish": "git add *; git commit -m \"Fast Publish!\"; git push heroku master;"
     },
     "repository": {
         "type": "git",
