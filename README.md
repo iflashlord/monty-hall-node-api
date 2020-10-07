@@ -61,12 +61,7 @@ Build an application that proves the paradox. The application should be able to 
 **Front-end:** https://fathomless-journey-54480.herokuapp.com
 
 
-
-### Design: Adobe Illustrator and Adobe XD
-
-**files:** design.eps and design.xd
-
-
+ 
 
 ### Unit Test
 
